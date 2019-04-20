@@ -1,7 +1,7 @@
 /*************************************************************************
     > File Name: Curl.cpp
-    > Author: yangjianwei
-    > Mail: yangjianwei@sogou-inc.com 
+    > Author: Jun Zhang
+    > Mail: ewalker.zj@gmail.com 
     > Created Time: Wed 06 Jun 2018 04:23:56 PM CST
  ************************************************************************/
 

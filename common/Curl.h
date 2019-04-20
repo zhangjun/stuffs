@@ -1,7 +1,7 @@
 /*************************************************************************
     > File Name: Curl.h
-    > Author: yangjianwei
-    > Mail: yangjianwei@sogou-inc.com 
+    > Author: Jun Zhang
+    > Mail: ewalker.zj@gmail.com 
     > Created Time: Wed 06 Jun 2018 04:21:32 PM CST
  ************************************************************************/
 
