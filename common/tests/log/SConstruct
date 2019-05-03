@@ -1,0 +1,45 @@
+import os
+
+env = Environment()
+
+root_path = os.getcwd()
+
+env.Append(CPPPATH = [root_path, 
+        "/search/odin/zhangjun/gitcode/log_code/spdlog/include",
+        ])
+env.Append(LIBPATH = ['/usr/lib64',
+        ])
+
+#env.Append(LIBS = ['bounce'])
+env.Append(LIBS = ['pthread'])
+
+env.Append(CCFLAGS = ['-Wall', '-O3', '-std=c++11', '-g'])
+#env.Append(CCFLAGS = ['-Wall', '-O3', '-std=c++11'])
+env.Append(LINKLAGS = ['-static'])
+
+#env.Library(
+#        target = "http",
+#        source = [
+#            "server_http.cc",
+#        ],
+#)
+
+env.Program(
+    target = "main",
+    source = [
+        #"main.cc",
+        #"custom_log.cc",
+        "file_log.cc",
+        #"client.cc",
+    ],
+#    libs = [
+#        "jsoncpp",
+#        "boost_system",
+#    ],
+#    libpath = [
+#        ".",
+#    ],
+#    cpppath = [
+#        ".",
+#    ],
+)
